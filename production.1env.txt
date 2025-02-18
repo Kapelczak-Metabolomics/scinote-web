@@ -1,0 +1,32 @@
+# Secrets
+SECRET_KEY_BASE: "de6f79e339ac4dc0f0e400d86dbfe640531b87ff"
+PAPERCLIP_HASH_SECRET: "de6f79e339ac4dc0f0e400d86dbfe640531b87ff"
+
+# File storage
+
+# For local file storage
+PAPERCLIP_STORAGE: "filesystem"
+
+# For S3 file storage
+#PAPERCLIP_STORAGE: "s3"
+#AWS_ACCESS_KEY_ID: ""
+#AWS_REGION: ""
+#AWS_SECRET_ACCESS_KEY: ""
+#S3_BUCKET: ""
+#S3_HOST_NAME: ""
+
+# Mailer settings
+MAIL_FROM: "Example SciNote Assistant <assistant@yourdomain.com>"
+MAIL_REPLYTO: "Example SciNote Assistant <assistant@yourdomain.com>"
+SMTP_ADDRESS: "your.yoursmtp.com"
+SMTP_PORT: "25"
+SMTP_DOMAIN: "yoursmtp.com"
+SMTP_USERNAME: "user@yoursmtp.com"
+SMTP_PASSWORD: "<<smtp_password>>"
+SMTP_AUTH_METHOD: "plain"
+MAIL_SERVER_URL: "scinote.yourdomain.com"
+
+# Sign-up process
+NEW_TEAM_ON_SIGNUP: "true"
+ENABLE_EMAIL_CONFIRMATIONS: "false"
+ENABLE_USER_REGISTRATION: "true"
